@@ -1,0 +1,4 @@
+pandas==1.1.5
+django==3.2.13
+djangorestframework==3.13.1
+djangorestframework-api-key==2.2.0
