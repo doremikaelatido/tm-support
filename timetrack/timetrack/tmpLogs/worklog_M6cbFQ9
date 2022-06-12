@@ -1,0 +1,16 @@
+------WebKitFormBoundaryDEFrpD3vHxxoKt3N
+Content-Disposition: form-data; name="file"; filename="sample.csv"
+Content-Type: text/csv
+
+﻿user,timestamp,hours,project
+ned,2019-09-27 00:00:00 UTC,8,bizdev
+ned,26 сентября 2019 00:00 UTC,4,bizdev
+robert,09/27/2019 12:00 AM UTC,8,bizdev
+catelyn,2018-11-26 14:47:36.0429 UTC,0.6,opsandadmin
+catelyn,26 августа 2018 14:47:36.0429 UTC,0.6,opsandadmin
+
+------WebKitFormBoundaryDEFrpD3vHxxoKt3N
+Content-Disposition: form-data; name=""
+
+
+------WebKitFormBoundaryDEFrpD3vHxxoKt3N--
