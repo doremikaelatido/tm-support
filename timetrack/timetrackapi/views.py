@@ -35,7 +35,8 @@ class WorkLogViewSet(viewsets.ModelViewSet):
         worklogs = self.get_queryset()
         logs = worklogs.filter(user=userFilter)
         serializer = self.get_serializer(logs, many=True)
-        return HttpResponse(json.dumps(serializer.data))
+        data = {"data": serializer.data}
+        return HttpResponse(json.dumps(data, indent=4), content_type='application/json')
 
 
 class FileUploadView(views.APIView):
