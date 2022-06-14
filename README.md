@@ -15,6 +15,7 @@ docker run -d -p 8000:8000 doremikaelatido/timetracker
     - django - framework used for the webservice
     - djangrestframework - framework used for the webservice
     - pandas - dependency mainly used for data clean up
+- I decided to go with Django's default sqlite database for my data warehouse.
 
 ## Some notes
 - API Root - http://localhost:8000/
